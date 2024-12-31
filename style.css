@@ -1,0 +1,452 @@
+body{
+    display: grid;
+    grid-template-columns: 290px 700px 200px 100px;
+    grid-template-rows:  1fr 460px;
+    background-color: #e1e8f0;
+
+}
+@font-face{
+    font-family: Oswald;
+    src: url('Oswald-Regular.ttf')
+}
+
+/*body > div{
+    border: 2px solid red;
+    display: flex;
+   
+}
+    */
+#cube{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    
+}
+
+#home{
+    position: absolute;
+    left: 34px;
+    top: 110px;
+}
+
+
+#profile{
+    position: absolute;
+    left: 35px;
+    top: 160px;
+}
+
+
+#messages{
+    position: absolute;
+    left: 35px;
+    top: 210px;
+}
+
+
+#history{
+    position: absolute;
+    left: 35px;
+    top: 250px;
+   
+}
+
+
+#tasks{
+    position: absolute;
+    left: 38px;
+    top: 295px;
+}
+
+
+#communities{
+    position: absolute;
+    left: 35px;
+    top: 340px;
+}
+
+
+#settings{
+    position: absolute;
+    left: 36px;
+    top: 465px;
+}
+
+
+#support{
+    position: absolute;
+    left: 35px;
+    top: 510px;
+}
+
+
+#privacy{
+    position: absolute;
+    left: 35px;
+    top: 555px;
+}
+
+
+.dashboard{
+    display: grid;
+    grid-template-rows: 30px 300px 200px;
+    grid-row: 1/4;
+    gap: 50px;
+    background-color: rgb(28,147,211);
+    color: white;
+    
+}
+
+.dashboard > h2{
+    margin-left: 100px;
+}
+.dashboard > ul{
+    font-size: 23px;
+    margin-left: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 0px;
+    
+        
+}
+
+.dashboard > ul > li:hover{
+    font-size: larger;
+    
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1040px;
+    grid-template-rows: 60px 100px;
+     
+}
+
+.header > p{
+    grid-column:2/3;
+    height: 80px;
+    width: 300px;
+}
+
+.header > *{
+    background-color: rgb(245, 242, 242);
+    font-family: Oswald;
+}
+
+
+.header .author{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#logo{
+    position: absolute;
+    left: 1060px;
+    margin-top: 8px;
+}
+#logo2{
+    position: absolute;
+    margin-top: 90px;
+   margin-left:50px;
+}
+#bell{
+    position: absolute;
+    left: 1020px;
+    margin-top: 15px;
+}
+
+#search{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#searchBar{
+    width: 500px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 13px;
+    border-radius: 20px;
+    background-color: rgb(214, 212, 212);
+   
+}
+.topRight{  
+   position: absolute;
+   left: 1120px;
+   width: 160px;
+   font-size: 18px;
+}
+
+.author > .owner{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 25px;
+}
+
+.author > .greeting {
+position: absolute;
+top: 80px;
+margin-left: 115px;
+}
+
+.request{
+
+   display: flex;
+   justify-content: space-around;
+   position: absolute;
+   top:100px;
+   left:913px;
+   gap:35px;
+   
+}
+button{
+    width: 90px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: rgb(28,147,211);
+    color: white;
+}
+
+.projects{
+    margin-top: 80px;
+    display: grid;
+    grid-row: 2/4;
+    grid-template-columns:200px 200px;
+    grid-template-rows: 100px 100px;
+    column-gap:180px;
+    row-gap: 150px;   
+    background-color: #e1e8f0;
+    width: 1040px;
+    
+}
+
+.projects> h2{
+    position: absolute;
+    top:190px;
+    margin-left: 25px;
+}
+
+.folder{
+    
+    border: 1px solid black;
+    height: 200px;
+    width: 350px;
+    margin-left: 20px;
+    border-left: 10px solid #efb428;
+    border-radius: 10px;
+    background-color: white;
+   
+}
+
+#favourite,
+#public,
+#share,
+#favourite2,
+#public2,
+#share2,
+#favourite3,
+#public3,
+#share3,
+#favourite4,
+#public4,
+#share4,
+#favourite5,
+#public5,
+#share5,
+#favourite6,
+#public6,
+#share6{
+    position :absolute;
+     
+}
+
+#favourite{
+    margin-top: 160px;
+    margin-left: 230px;
+}
+
+#favourite2{
+    margin-top: 160px;
+    margin-left: 600px;
+    
+}
+
+#favourite3{
+    margin-top: 410px;
+    margin-left:230px;
+}  
+
+#favourite4{
+    margin-top: 410px;
+    margin-left: 600px;
+}
+ 
+
+
+#favourite5{
+    margin-top:660px;
+    margin-left: 230px; 
+}
+
+
+
+#favourite6{
+    margin-top: 660px;
+    margin-left: 488px;
+
+    
+}
+
+
+#share{
+    margin-top: 160px;
+    margin-left: 270px;
+    
+}
+#share2{
+    margin-top: 160px;
+    margin-left: 640px;
+    
+}
+#share3{
+    margin-top: 410px;
+    margin-left:270px;   
+}
+
+#share4{
+    margin-top: 410px;
+    margin-left: 642px; 
+}
+
+#share5{
+    margin-top:660px;
+    margin-left: 270px; 
+}  
+
+#share6{
+    margin-top: 660px;
+    margin-left: 642px; 
+}
+
+#public{
+    margin-top: 160px;
+    margin-left: 315px;
+}
+
+#public2{
+    margin-top: 160px;
+    margin-left: 680px;  
+}
+
+#public3{
+    margin-top: 410px;
+    margin-left:315px; 
+}
+
+#public4{
+    margin-top: 410px;
+    margin-left: 680px; 
+}
+
+#public5{
+    margin-top:660px;
+    margin-left: 315px;  
+}
+
+#public6{
+    margin-top: 660px;
+    margin-left: 680px; 
+}
+
+.announcements{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 0px;
+    grid-column: 3/6;
+    grid-row: 2/3;
+    margin-left: 85px;
+    margin-top: 80px;
+    border-radius: 10px;
+    height: 310px;
+    background-color: white;
+
+}
+
+
+.announcements > h2{
+    position: absolute;
+    top: 190px;
+}
+
+.announcements .block{
+   
+    width: 250px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.title{
+    font-family: Oswald;
+    text-align: center;
+}
+.folder > title{
+    text-align: center;
+}
+
+.trending{
+    display: grid;
+    grid-template-rows: 60px 60px 60px;
+    row-gap: 0px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin-left: 85px;
+    height: 255px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.trending > h2{
+    position: absolute;
+    top: 560px;
+}
+
+.trending .block{
+    width: 250px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+#man{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 20px;   
+}
+
+#man2{
+position: absolute;
+margin-top: 77px;
+margin-left: 20px;
+}
+
+#girl{
+position: absolute;
+margin-top: 137px;
+margin-left: 20px;
+}
+
+#woman{
+position: absolute;
+margin-top: 197px;
+margin-left: 20px;
+}
+
+.trending > .attribute{
+    margin-left: 60px;
+}
